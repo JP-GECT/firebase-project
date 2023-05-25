@@ -1,3 +1,4 @@
+import Login from "./pages/Login"
 
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     
     <>
     <div className='w-screen h-8 bg-white '></div>
+    <Login />
     </>
   )
 }
